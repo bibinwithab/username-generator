@@ -14,7 +14,7 @@ class Person:
         print(f"Email: {n_1}{n_2}{self.age}{random.randint(1, 10)}@hotmail.com")
 
     def username(self):
-        print(f"Username: {self.firstname.lower()}_{random.randint(1, 100)}")
+        print(f"Username: {self.firstname.lower()}{random.randint(1, 100)}")
 
     def password(self):
         length = 2 + len(self.firstname)
